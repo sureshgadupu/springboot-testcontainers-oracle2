@@ -18,8 +18,6 @@ public class Employee implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-//    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "EMP_SEQ")
-////    @SequenceGenerator(sequenceName = "employee_seq", allocationSize = 1, name = "EMP_SEQ")
     private Integer id;
     private String first_name;
     private String last_name;
